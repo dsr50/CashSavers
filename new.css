@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Typography */
+#headCash {
+	font-family:Verdana, Verdana, Geneva, sans-serif;
+	font-size:large;
+	font-style:normal;
+	text-align:center;
+	text-shadow:#999;
+	color:#FFF;
+}
+
+/* Background-Colors*/
+body {
+	background-color:#cc0000;
+}
+#mainNav {
+	background-color:#000;
+	float:right;
+}
