@@ -13,9 +13,29 @@
 
 /* Background-Colors*/
 body {
-	background-color:#cc0000;
+	background-color:#990000;
 }
 #mainNav {
-	background-color:#000;
+	font-color:#000;
 	float:right;
+	text-style:normal;
+	font-family:Verdana, sans-serif;
+	text-align:right;
 }
+
+/*Formatting*/
+#mainNav {
+	float:right;
+	text-style:normal;
+	font-family:Verdana, sans-serif;
+	text-align:right;
+	width:300px;
+	position:relative;
+	top:5px;
+	font-size:auto;
+}
+/*Nav Links*/
+a:link {color:#999}
+a:visited {color:#cc0000;}
+a:hover {color:inherit;}
+a:active {color:#cc0000;}
