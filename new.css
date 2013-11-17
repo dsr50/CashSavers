@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Typography */
-#headCash {
+.headCash {
 	font-family:Verdana, Verdana, Geneva, sans-serif;
 	font-size:large;
 	font-style:normal;
@@ -15,27 +15,23 @@
 body {
 	background-color:#990000;
 }
-#mainNav {
-	font-color:#000;
-	float:right;
-	text-style:normal;
-	font-family:Verdana, sans-serif;
-	text-align:right;
+mainNav {
+	color:"White";
 }
 
 /*Formatting*/
-#mainNav {
+nav {
 	float:right;
-	text-style:normal;
-	font-family:Verdana, sans-serif;
-	text-align:right;
-	width:300px;
-	position:relative;
-	top:5px;
-	font-size:auto;
+	font-family:Verndada, sans-serif;
+	font-size:25px;
+	word-spacing:.7em;
 }
+a#ad {
+	word-spacing:.1em
+}
+
 /*Nav Links*/
-a:link {color:#999}
+a:link {color:White;}
 a:visited {color:#cc0000;}
 a:hover {color:inherit;}
 a:active {color:#cc0000;}
