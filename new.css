@@ -15,12 +15,12 @@
 body {
 	background-color:#990000;
 }
-mainNav {
+/* mainNav {
 	color:"White";
 }
 
 /*Formatting*/
-nav {
+/* nav {
 	float:right;
 	font-family:Verndada, sans-serif;
 	font-size:25px;
@@ -31,7 +31,7 @@ a#ad {
 }
 
 /*Nav Links*/
-a:link {color:White;}
+/*a:link {color:White;}
 a:visited {color:#cc0000;}
 a:hover {color:inherit;}
-a:active {color:#cc0000;}
+a:active {color:#cc0000;} */
