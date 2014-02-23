@@ -15,7 +15,7 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
   
-mysqli_query($con, INSERT INTO cash.emp (fname,lname,phone) VALUES($_POST["fname"],$_POST["lname"],$_POST["email"]));
+mysqli_query($con, INSERT INTO cash.emp (fname,lname,email) VALUES($_POST["fname"],$_POST["lname"],$_POST["email"]));
   
 mysqli_close($con);
 ?>
