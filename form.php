@@ -2,12 +2,12 @@
 <htmL>
 <body>
 
-Welcome <?php echo $_POST["fname"]; ?><br>
+Welcome <?php echo $_POST["fname"]; ?> <br>
 Your email address is: <?php echo $_POST["email"]; ?>
 
 <?php
 // Create the Connection
-$con=mysqli_connect("192.168.2.18","cash@localhost","johnson41","cash");
+$con=mysqli_connect("192.168.2.18","cash","johnsoN41","cash");
 
 // Check connection
 if (mysqli_connect_errno())
